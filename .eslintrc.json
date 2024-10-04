@@ -22,8 +22,9 @@
     "sourceType": "module"
   },
   "rules": {
-    "react/react-in-jsx-scope": "off", // Next.js automatically imports React
-    "jsx-a11y/anchor-is-valid": "off" // Next.js handles link validation
+    "react/react-in-jsx-scope": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "max-len": ["error", { "code": 100 }]
   },
   "settings": {
     "react": {
